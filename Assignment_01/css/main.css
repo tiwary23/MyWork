@@ -9,14 +9,24 @@ header{
 	
 }
 
+/*---body margin----*/
+body{
+	margin: 0%;
+}
+
+/*----heading -----*/
 .heading{
 	float: left;
+	margin-left: 10px;
 }
+
+/*-----positioning of nav-----*/
 ul{
 padding-top: 15px;
 text-indent: 20px;
 }
 
+/*---nav bar formatting----*/
 li{
 	display: inline;
     font-family: 'Arvo', serif;
@@ -30,49 +40,63 @@ li{
 	vertical-align:center;
 	align-self:center;
 	margin-right: 20px;
-	text-indent: 20px;
+	word-spacing: 15px;
 	
 }
+/*------removing the underlined of anchor ----*/
 a{
 	text-decoration: none;
 }
-body{
-	margin: 0%;
-}
-.hero img{
+
+/*---setting the hero content to full width---*/
+.hero{
 	width: 100%;
 }
-.content{
-	font-size: 22px;
-}
 .content_img{
-	height:200px;
-	width: 280px;
+	height:80%;
+	width: 100%;
 }
+
+/*-----text decoration of heading of section---*/
 h3{
 	text-decoration: underline;
 }
+
+/*-----flexbox layout-----*/
+
+/*-----flex container-----*/
 .flex_container{
 	display: flex;
 	flex-direction: row;
-	flex
 	text-align:justify;
 	margin-left: 10px;
 	margin-right: 10px;	
 }
-.flex_container > div{
+
+/*-----flex item---*/
+.flex-item{
 	margin: 10px;
 	padding: 20px;
 }
 
-.after_content{
-   height: 1px;
-   outline: solid;
-
+/*-----footer background color-----*/
+footer{
+	background-color: gainsboro;
 }
 
+/*----- footer icon size----*/
 .footer{
-	
-	width: 35x;
+	width: 35px;
 	height: 35px;
+}
+
+@media(max-width: 700px){
+
+	.flex_container{
+		display: flex;
+		flex-direction: column;
+		text-align:justify;
+		margin-left: 10px;
+		margin-right: 10px;	
+	}
 }
