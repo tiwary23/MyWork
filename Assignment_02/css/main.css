@@ -1,0 +1,22 @@
+
+#website{
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+
+}
+#mycarousel .item{
+  height: 500px;
+} 
+#navbar{
+  background-color: maroon;
+} 
+#mycarousel{
+  margin-top: 70px;
+}
+#carousel-img{
+  width: 100%;
+  margin: auto;
+  align-content: center;
+}
+
