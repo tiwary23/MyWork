@@ -1,22 +1,65 @@
 
+body{
+  background-color: darksalmon;
+}
 #website{
   font-size: 30px;
   font-family: 'Dancing Script', cursive;
   font-weight: bold;
 
 }
-#mycarousel .item{
-  height: 500px;
-} 
+
+#nav-font{
+  font-family: 'Hepta Slab', serif;
+}
+
+
 #navbar{
   background-color: maroon;
 } 
 #mycarousel{
   margin-top: 70px;
 }
-#carousel-img{
+#carousel-img1, #carousel-img2 ,#carousel-img3{
   width: 100%;
   margin: auto;
   align-content: center;
+}
+
+
+#art1, #art2, #art3{
+  text-align: center;
+}
+
+#art-img1, #art-img2, #art-img3{
+  align-content: center;
+  margin: 10px,0px;
+}
+#buy-img1, #buy-img2, #buy-img3{
+  text-align: center;
+}
+
+#btn1, #btn2, #btn3{
+  margin:10px 0px;
+} 
+
+#footer{
+  background: sienna;
+
+}
+#list-style{
+  list-style: none;
+  padding-left: 10px;
+}
+
+#copyright{
+  margin-top: 20px;
+
+}
+
+#footer-img1, #footer-img2{
+  height: 30px;
+  display: inline;
+  margin-top: 20px;
 }
 
