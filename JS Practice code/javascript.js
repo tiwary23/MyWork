@@ -1,0 +1,1 @@
+var x= document.getElementById("dispaly").innerHTML = src="face1.jpg";

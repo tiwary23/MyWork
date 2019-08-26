@@ -5,23 +5,28 @@
       Assignment_02
     </title>
     <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta name="author" content="John Doe">
+    <meta name="description" content="Gaming Site">
+    <meta name="keywords" content="game,game site">
+    <meta name="author" content="Deepak">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
-  <body class="container">
+  <body>
+
+    <!-- navigation bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
       <div class="container">
           <div class=" navbar-header">
-              <a class="navbar-brand" id="website" href="#">Game World</a>   
+              <a class="navbar-brand" id="website" href="#">game world</a>   
             </div>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#responsive">
+
+            <!-- collapse -->
+            <button type="button" id="collapse" class="navbar-toggle collapsed navbar-responsive-collapse pull-right" data-toggle="collapse" data-target="#responsive">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -29,16 +34,16 @@
             <div class="collapse navbar-collapse" id="responsive">
                 <ul class="nav navbar-nav " id="nav-font">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Home</a>
+                      <a class="nav-link" href="#">home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Downloads</a>
+                      <a class="nav-link" href="#">downloads</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Products</a>
+                      <a class="nav-link" href="#">products</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Help</a>
+                      <a class="nav-link" href="#">help</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
@@ -49,12 +54,12 @@
                     </form>
                   </li>
                   <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" ><span class="glyphicon glyphicon-user"></span>My Account<span class="caret"></span></a>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" ><span class="glyphicon glyphicon-user"></span>my account<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span>Profile</a></li>
-                      <li><a href="#"><span class="glyphicon glyphicon-cog"></span>Setting</a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger"></span>profile</a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-cog"></span>setting</a></li>
                       <li class="divider"></li>
-                      <li><a href="#"><span class="glyphicon glyphicon-off"></span>Sin Out</a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-off"></span>sin Out</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -63,7 +68,7 @@
              
     </nav>
       <!-- carousel -->
-    <div class="carousel slide" id="mycarousel">
+    <section class="carousel slide container" id="mycarousel">
 
         <!-- indicator -->
         <ol class="carousel-indicators">
@@ -77,21 +82,21 @@
           <div class="item active" id="slide1">
               <img id="carousel-img1" alt="prince of persia" src="img/prince_of_persia.jpg">
             <div class="carousel-caption">
-              <h2>Prince of Persia</h2>
+              <h2>prince of persia</h2>
               <p>Prince of Persia The Forgotten Sands is the next chapter in the fan-favorite Sands of Time universe.</p>
             </div> 
           </div>
           <div class="item" id="slide2">
               <img id="carousel-img2" alt="counter strike" src="img/counter-strike.jpg">
               <div class="carousel-caption">
-                <h2>Counter Strike</h2>
+                <h2>counter strike</h2>
                 <p> Global Offensive is a multiplayer first-person shooter video game developed by Hidden Path Entertainment and Valve Corporation.</p>
               </div>
           </div>
           <div class="item" id="slide3">
             <img id="carousel-img3" alt="pubg" src="img/pubg.jpg">
               <div class="carousel-caption">
-                  <h2>PUBG</h2>
+                  <h2>pubg</h2>
                   <p>PlayerUnknown's Battlegrounds is an online multiplayer battle royale game developed and published by PUBG Corporation, 
                     a subsidiary of South Korean video game company Bluehole.</p>
               </div>
@@ -102,15 +107,15 @@
         <a class="left carousel-control" data-slide="prev" href="#mycarousel"><span class="glyphicon glyphicon-chevron-left"></span></a>
         <a class="right carousel-control" data-slide="next" href="#mycarousel"><span class="glyphicon glyphicon-chevron-right"></span></a>
   
-      </div>
-    <section class="col-12">
-        <h3>Most played games</h3>
+      </section>
+    <section class="well container col-12">
+        <h3>most played games</h3>
         <p class="well">This is a list of the most-played video games ordered by their overall player count, including by registered accounts, monthly active users, subscriptions, or owners of a free-to-play game. Do not list games by official sales figures here; those are to be added to the list of best-selling video games page instead. 
           This list is also not comprehensive, because player counts are not always publicly available, reliable, or up to date. </p>
           <article class="col-sm-4" id="art1">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <h2 class="panel-title">CrossFire</h2>
+                <h2 class="panel-title">crossfire</h2>
               </div>
               <img class="img-circle img-responsive" src="img/crossfire.jpg" alt="crossfire" id="art-img1" >
               <p class="panel-body">Due to its popularity in Asia, especially China and South Korea, it became the most played game in the world by player count of all time, with 660 million players worldwide. It was the world's top-grossing online game as of 2014, and went on to become one of the highest-grossing video games of all time,
@@ -120,7 +125,7 @@
           <article class="col-sm-4"  id="art2">
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h2 class="panel-title">Dungen</h2>
+                  <h2 class="panel-title">dungen</h2>
                 </div>
                 <img class="img-circle img-responsive"  src="img/dungen.jpg" alt="dungen" id="art-img2">
                 <p  class="panel-body">DFO is one of the highest-grossing and most-played video games of all time, reaching a total of 600 million players worldwide. 
@@ -131,20 +136,20 @@
           <article class="col-sm-4"  id="art3">
                 <div class="panel panel-default">
                   <div class="panel-heading">
-                    <h2 class="panel-title">Candy Crush</h2>
+                    <h2 class="panel-title">candy crush</h2>
                   </div>
                   <img class="img-circle img-responsive" src="img/candy-crush.jpg"  alt="candy crush" id="art-img3">
                   <p class="panel-body">Candy Crush Saga is considered one of the first and most successful uses of a freemium model; while the game can be played completely through without spending money,
                      players can buy special actions to help clear more difficult boards, from which King makes its revenues—at its peak the company was reportedly earning almost $1 million per day </p>
                 </div>
           </article>
-    </section>
-    <hr>
-    <section class=" row col-12">
+     </section>
+    <section class="container well">
+      <h3>purchase section</h3>
       <div class="col-sm-4" id="buy-img1">
         <div class="panel panel-default">
           <div class="panel-heading">
-              <h3 class="panel-title">GTA-V</h3>
+              <h3 class="panel-title">gta v</h3>
           </div>
           <img src="img/gta-buy.jpg" alt="gta-buy">
           <button class="btn btn-primary "  id="btn1">Buy @ <i class="fa fa-rupee">1,044</i></button>
@@ -153,7 +158,7 @@
       <div class="col-sm-4" id="buy-img2">
           <div class="panel panel-default">
               <div class="panel-heading">
-                  <h3 class="panel-title">COD 4</h3>
+                  <h3 class="panel-title">cod 4</h3>
               </div>
             <img src="img/cod-buy.jpg" alt="cod">
             <button class="btn btn-primary " id="btn2" >Buy @ <i class="fa fa-rupee"></i>999</button>
@@ -162,42 +167,93 @@
       <div class="col-sm-4" id="buy-img3">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">FIFA 19</h3>
+                    <h3 class="panel-title">fifa 19</h3>
                 </div>
               <img src="img/fifa-buy.jpg" alt="fifa">
               <button class="btn btn-primary " id="btn3">Buy @ <i class="fa fa-rupee"></i>1,999</button>
             </div>
       </div>
+    </section> 
+    <section class="well container">
+      <article class="col-sm-6">
+        <h3>more information</h3>
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#event" data-toggle="tab">event</a></li>
+          <li><a href="#location" data-toggle="tab">location</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="event">
+            <h3>event</h3>
+            <p>a world class event is going to be organised by game world for the game enthusiast, which will comprise 
+            every category of game and a league tournament. interested visist this site regularly for more information.
+            the venue for the event is shared. </p>
+            <figure>
+              <img src="img/event.jpg" id="event-img" alt="event" width="100%">
+            </figure>
+          </div>
+          <div class="tab-pane" id="location">
+            <h3>event location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.596375277058!2d77.6062017143631!3d12.933643419210554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1452a8c9771f%3A0xbaaadc0ced3c3d45!2s77%2F2%2C%201st%20Cross%20Rd%2C%20Venkateshwara%20Layout%2C%20S.G.%20Palya%2C%20Bengaluru%2C%20Karnataka%20560029!5e0!3m2!1sen!2sin!4v1566844395747!5m2!1sen!2sin" 
+            width="100%" height="235" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </article>
+      <article class="col-sm-6" id="modals">
+        <h3>for any suggestion click below.<br>thanks in advance.</h3>
+        <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><h4>suggestion</h4></a>
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">suggestion</h4>
+              </div><!-- end modal-header -->
+              <div class="modal-body">  
+                <form class="form-horizontal">
+                    <div class="form-group">
+                      <label class="col-lg-2 control-label" for="inputName">Name</label>
+                      <div class="col-lg-10">
+                        <input class="form-control" id="inputName" placeholder="Name" type="text">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                      <div class="col-lg-10">
+                        <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                      </div>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label class="col-lg-2 control-label" for="inputMessage">Message</label>
+                      <div class="col-lg-10">
+                        <textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+                        <button class="btn btn-success pull-right" type="submit">Send!</button>
+                      </div>
+                    </div>
+                  </form>
+                </div><!-- end modal-body -->
+                
+                <div class="modal-footer">
+                  <button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+                </div><!-- end modal-footer -->
+              </div><!-- end modal-content -->
+            </div><!-- end modal-dialog -->
+          
+      </article>
     </section>
-    <footer id="footer">
-      <div class="container">
+    <!-- footer -->
+    <footer class="container-fluid" id="footer">
         <div class="col-sm-2" id="copyright">
-          <h3>Copyright<span class="glyphicon glyphicon-copyright-mark"></span><span class="glyphicon glyphicon-registration-mark"></span></h3>
+          <h4>Copyright<span class="glyphicon glyphicon-copyright-mark"></span><span class="glyphicon glyphicon-registration-mark"></span></h4>
         </div>
-        <div class="col-sm-4">
-          <h3>About Us</h3>
-          <p>
-            This is a gaming website for the game lover and contain the latest game along with the downloads link and instruction of installing it.</p>
-
-        </div>
-        <div class="col-sm-4">
-          <h3>Navigation</h3>
-          <ul id="list-style">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Downloads</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Help</a></li>
-          </ul>
-        </div>
-        <div class="col-sm-2">
+        <!-- links -->
+        <div class="col-sm-2 pull-right" id="social-link">
           <a href="#"><img src="img/fb.png" alt="fb" id="footer-img1"></a>
           <a href="#"><img src="img/insta.png" alt="insta" id="footer-img2"></a>
         </div>
-      </div>
     </footer>
-    
+    <!-- scripts -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
   </body>
 </html>
